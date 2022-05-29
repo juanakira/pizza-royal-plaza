@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+.container {
+  padding-left: 3em;
+  padding-right: 3em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border: 3px solid black;
+  border-radius: 10%;
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:15px;
+  position: relative;
+  
+}
+
+.api-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.api-content {
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 10%;
+  padding: 30px;
+  max-width: 600px;
+  display:none;
+}
+
+
+
+#api-list {
+  text-align: left;
+}
+
+#api-img {
+  max-width: 500px
+}
+
+.pizza-list {
+  margin-right: 50px;
+}
